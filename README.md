@@ -1,7 +1,9 @@
-# japanese-practical-writing
+# japanese-technical-writing
 
-リポジトリの中で更新され続ける日本語文書の書き方をまとめたエージェント用スキルです。
-README、PR 本文、調査報告、仕様書、issue、申し送りを対象とします。
+日本語のテクニカルライティングをまとめたエージェント用スキルです。
+実社会で具体的な目的を達するために書く文章を対象とします。
+README、説明書、手順書、報告書、調査レポート、指示書、依頼書、提案書、引き継ぎ資料、案内文、Issue や Pull Request の本文。
+文学、評論、批評は対象ではありません。
 
 ## 何が書いてあるか
 
@@ -29,9 +31,9 @@ README、PR 本文、調査報告、仕様書、issue、申し送りを対象と
 各ツールのスキル探索先へ、このリポジトリを置くか symlink します。
 
 ```
-~/.claude/skills/japanese-practical-writing/SKILL.md
-~/.codex/skills/japanese-practical-writing/SKILL.md
-~/.config/opencode/skills/japanese-practical-writing/SKILL.md
+~/.claude/skills/japanese-technical-writing/SKILL.md
+~/.codex/skills/japanese-technical-writing/SKILL.md
+~/.config/opencode/skills/japanese-technical-writing/SKILL.md
 ```
 
 複数のツールで共有するなら、実体を1か所に置いて各探索先から symlink する方が、
